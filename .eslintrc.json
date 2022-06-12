@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      },
+      "alias": {
+        "map": [
+          ["components", "./src/components/"],
+          ["assets", "./src/assets"],
+          ["pages", "./src/pages/"],
+          ["routes", "./src/routes/"]
+        ]
+      }
+    }
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "prettier", "plugin:import/react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {}
+}
