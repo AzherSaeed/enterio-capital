@@ -11,10 +11,10 @@ module.export = {
   ], // setupFiles before the tests are ran
   displayName: 'Entira Capital Test Report',
   moduleNameMapper: {
-    '@pages/(.*)$': './src/pages/$1',
-    '@assets': './src/assets/index.js',
-    '@routes/(.*)$': '<rootDir>/src/routes/$1',
-    '@config': './src/config.js',
-    '@components/(.*)$': './src/components/$1',
+    'pages/(.*)$': './src/pages/$1',
+    assets: './src/assets/index.js',
+    'routes/(.*)$': '<rootDir>/src/routes/$1',
+    config: './src/config.js',
+    'components/(.*)$': './src/components/$1',
   },
 };
