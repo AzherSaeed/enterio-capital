@@ -1,10 +1,11 @@
-import React from "react";
-import { BrowserRouter, Link, Routes } from "react-router-dom";
-import CompanyPages from "./routes/companyPages";
+import React from 'react';
+import { BrowserRouter, Link, Routes } from 'react-router-dom';
+import CompanyPages from './routes/companyPages';
 
 function App() {
   return (
     <div>
+      v1
       <BrowserRouter>
         <Link to="/">Home</Link>
         <Link to="/team">Team</Link>
