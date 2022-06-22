@@ -50,6 +50,11 @@ const NavBarContainer = styled.div`
           text-underline-offset: 12px;
         }
       }
+      .active{
+        color: ${PrimaryColor};
+          text-decoration: underline;
+          text-underline-offset: 12px;
+      }
     }
     .toggler-active{
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
