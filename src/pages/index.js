@@ -1,7 +1,9 @@
-import HomePage from './homePage/HomePage';
-import ProjectStructure from './projectStructure/ProjectStructure';
-import Team from './team/Team';
-import WhatSetsUsApart from './whatSetsUsApart/WhatSetsUsApart';
+import HomePage from './homePage';
+import ProjectStructure from './projectStructure';
+import WhatSetsUsApart from './whatSetsUsApart';
 import MissingPage from './missingPage/MissingPage';
+import OurTeam from './ourTeam';
+import SingleTeamMember from './ourTeam/singleTeamMember'
+import ContactUs from './contactUs/main'
 
-export { HomePage, ProjectStructure, Team, WhatSetsUsApart, MissingPage };
+export { HomePage, ProjectStructure, WhatSetsUsApart, MissingPage , OurTeam , SingleTeamMember , ContactUs};

@@ -3,15 +3,19 @@ import { Route } from "react-router-dom";
 import {
   HomePage,
   ProjectStructure,
-  Team,
   WhatSetsUsApart,
   MissingPage,
+  OurTeam,
+  ContactUs,
+  SingleTeamMember
 } from "pages";
 
 export default [
-  <Route path="/" element={<HomePage />} />,
+  <Route  path="/" element={<HomePage />} />,
   <Route path="/project-structure" element={<ProjectStructure />} />,
   <Route path="/what-sets-us-apart" element={<WhatSetsUsApart />} />,
-  <Route path="/team" element={<Team />} />,
+  <Route path="/contactus" element={<ContactUs />} />,
+  <Route path="/team" element={<OurTeam />} />,
+  <Route path="/team/:id" element={<SingleTeamMember/>} />,
   <Route path="*" element={<MissingPage />} />,
 ];
