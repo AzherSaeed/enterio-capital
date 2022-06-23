@@ -88,8 +88,8 @@ export const OurTeamContainer = styled.div`
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-        position: relative;
+        object-fit: contain;
+        object-position: left;
 
         /* ::before{
           content: "";

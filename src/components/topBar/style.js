@@ -15,25 +15,26 @@ export const TopBarContainer = styled.div`
       align-items: center;
       gap: 7px;
 
-      p {
+      a {
         color: white;
         font-weight: 400;
         font-size: 14px;
         line-height: 77.52%;
         margin: 0;
+        text-decoration: none;
       }
     }
     &-mail {
       display: flex;
       align-items: center;
       gap: 7px;
-      p {
+      a {
         color: white;
         font-weight: 400;
         font-size: 14px;
         line-height: 77.52%;
         margin: 0;
-
+        text-decoration: none;
       }
     }
   }

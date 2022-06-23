@@ -9,11 +9,11 @@ const topBar = () => (
       <div className="top-bar-contaienr-content">
         <div className="top-bar-contaienr-content-phone">
           <img src={phoneIcon} alt="phone" />
-          <p>(614) 207-1369</p>
+          <a href='tel: 614 207-1369' target='_blank' rel="noreferrer" >(614) 207-1369</a>
         </div>
         <div className="top-bar-contaienr-content-mail">
           <img src={mailIcon} alt="mailIcon" />
-          <p>ToddHolstlaw@EntiraCapitalPartners.com</p>
+          <a target='_blank' rel="noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ToddHolstlaw@EntiraCapitalPartners.com' >ToddHolstlaw@EntiraCapitalPartners.com</a>
         </div>
       </div>
     </Container>
