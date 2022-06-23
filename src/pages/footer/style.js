@@ -50,13 +50,15 @@ const FooterContainer = styled.div`
         line-height: 91.02%;
         margin-bottom: 40px;
       }
-      p {
+      a {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 85.52%;
         margin-bottom: 24px;
+        color: ${WhiteColor};
+        text-decoration: none;
       }
       @media screen and (max-width: 620px) {
         h1 {
@@ -67,6 +69,10 @@ const FooterContainer = styled.div`
           font-size: 14px;
           margin-bottom: 15px;
         }
+      }
+      &-list{
+        display: flex;
+        flex-direction: column;
       }
     }
     &-useFulLink {

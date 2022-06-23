@@ -7,7 +7,7 @@ import {
   WhiteColor,
 } from 'components/GlobalStyle';
 import React from 'react';
-import { contactUsLogo, bluePhone, blueLocation, blueMail } from 'assets';
+import { logo, bluePhone, blueLocation, blueMail } from 'assets';
 import CustomInput from '../../components/CustomInput';
 import CustomButton from '../../components/CustomButton';
 import CustomTextArea from '../../components/CustomTextArea';
@@ -31,7 +31,7 @@ const index = () => (
     <div className="container">
       <div className="contactus-form">
         <div className="contactus-form-left">
-          <img src={contactUsLogo} alt="contactUsLogo" />
+          <img src={logo} alt="contactUsLogo" />
           <h1>Our Contacts</h1>
           <SaparateLine bgColor={PrimaryColor} />
           <div className="contactus-form-left-items">
