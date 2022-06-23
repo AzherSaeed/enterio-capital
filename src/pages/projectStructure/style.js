@@ -48,6 +48,16 @@ export const HeaderContainer = styled.div`
           color: ${SecondaryColor};
         }
       }
+
+      @media screen and (max-width : 620px){
+        h1{
+          font-size: 30px;
+        }
+        h6{
+          font-size: 16px;
+          font-weight: normal;
+        }
+      }
     }
     &-img {
       img {
@@ -76,7 +86,10 @@ export const MonitizationContainer = styled.div`
   background-position: center;
   background-size: cover;
   min-height: 488px;
-  padding-top: 60px;
+  padding: 67px 0;
+
+
+
 
   .monetization-content {
     padding: 50px 0;
@@ -168,6 +181,10 @@ export const StructureFlowContainer = styled.div`
   /* max-height: 660px; */
   margin: 0 auto;
   padding: 60px 0;
+
+  @media screen and (max-width : 900px ){
+    max-width: 520px;
+  }
 
   img {
     width: 100%;

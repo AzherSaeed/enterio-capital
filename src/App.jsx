@@ -1,19 +1,22 @@
 import React from 'react';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import CompanyPages from './routes/companyPages';
-import { TopBar , NavBar} from './components';
+import { TopBar, NavBar } from './components';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <TopBar />
-      <NavBar/>
+      <NavBar />
       {/* <Link to="/">Home</Link>
       <Link to="/team">Team</Link>
       <Link to="/project-structure">Project Structure</Link>
       <Link to="/what-sets-us-apart">What Sets Us Apart</Link> */}
-      <Routes>{CompanyPages}</Routes>
+      <ScrollToTop>
+        <Routes>{CompanyPages}</Routes>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

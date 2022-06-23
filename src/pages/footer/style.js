@@ -7,13 +7,12 @@ const FooterContainer = styled.div`
   color: white;
   min-height: 437px;
   padding-top: 70px;
+  overflow: hidden;
   .footer-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-   
-   
 
     &-desc {
       max-width: 380px;
@@ -35,6 +34,11 @@ const FooterContainer = styled.div`
           font-size: 16px;
           line-height: 32px;
           color: #ffffff;
+
+          @media screen and (max-width: 620px) {
+            font-size: 14px;
+            line-height: 25px;
+          }
         }
       }
     }
@@ -54,6 +58,16 @@ const FooterContainer = styled.div`
         line-height: 85.52%;
         margin-bottom: 24px;
       }
+      @media screen and (max-width: 620px) {
+        h1 {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
     }
     &-useFulLink {
       max-width: 148px;
@@ -71,6 +85,16 @@ const FooterContainer = styled.div`
         line-height: 85.52%;
         margin-bottom: 24px;
       }
+      @media screen and (max-width: 620px) {
+        h1 {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
     }
     &-contact {
       max-width: 208px;
@@ -87,6 +111,19 @@ const FooterContainer = styled.div`
         font-size: 16px;
         line-height: 85.52%;
         margin-bottom: 24px;
+
+      
+      }
+
+      @media screen and (max-width: 620px) {
+        h1 {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px !important;
+          line-height: 20px !important;
+        }
       }
       &-list {
         p {
@@ -99,8 +136,7 @@ const FooterContainer = styled.div`
           font-size: 16px;
           line-height: 107.52%;
 
-
-          img{
+          img {
             width: 24px;
             height: 24px;
           }
@@ -108,12 +144,12 @@ const FooterContainer = styled.div`
       }
     }
   }
-  hr{
+  hr {
     background-color: ${WhiteColor};
     height: 2px;
     border-radius: 5px;
   }
-  p{
+  p {
     margin: 0;
   }
 `;

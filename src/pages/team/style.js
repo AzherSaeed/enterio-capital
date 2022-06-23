@@ -34,6 +34,7 @@ const TeamContainer = styled.div`
         line-height: 85.52%;
         margin: 20px 0;
       }
+    
     }
 
     &-cards {

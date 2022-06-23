@@ -19,6 +19,10 @@ export const HeaderContainer = styled.div`
     font-size: 58px;
     line-height: 85.52%;
     color: ${WhiteColor};
+
+    @media screen and (max-width: 768px) {
+      font-size: 40px;
+    }
   }
 `;
 
@@ -53,6 +57,14 @@ export const UniqueModelContainer = styled.div`
         color: ${GrayColor};
         margin: 40px 0;
       }
+      @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 35px;
+        }
+        h6 {
+          font-size: 16px;
+        }
+      }
     }
     &-sections {
       &-detail {
@@ -64,6 +76,9 @@ export const UniqueModelContainer = styled.div`
           line-height: 145.52%;
           color: ${SecondaryColor};
           margin-bottom: 37px;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+          }
         }
 
         &-list {
@@ -82,7 +97,6 @@ export const UniqueModelContainer = styled.div`
             line-height: 148.02%;
             color: ${GrayColor};
             margin: 0;
-
             display: flex;
             gap: 10px;
           }
@@ -94,6 +108,13 @@ export const UniqueModelContainer = styled.div`
           height: 100%;
           object-fit: cover;
           object-position: center center;
+        }
+        @media screen and (max-width: 768px) {
+          max-width: 540px;
+          margin: 0 auto;
+          img {
+            margin-top: 30px;
+          }
         }
       }
     }
@@ -125,7 +146,6 @@ export const OurApproachContainer = styled.div`
       background-repeat: no-repeat;
       background-size: cover;
       min-height: 243px;
-
       display: flex;
       justify-content: center;
       align-items: center;
@@ -141,6 +161,10 @@ export const OurApproachContainer = styled.div`
         max-width: 1041px;
         margin: 0 auto;
         padding: 58px 0;
+
+        @media screen and (max-width: 768px) {
+          font-size: 16px;
+        }
       }
     }
 
@@ -152,6 +176,13 @@ export const OurApproachContainer = styled.div`
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+
+        @media screen and (max-width: 768px) {
+          max-width: 540px;
+          margin: 0 auto;
+          margin-bottom: 40px;
+          height: 478px;
         }
       }
       &-content {
@@ -184,6 +215,12 @@ export const OurApproachContainer = styled.div`
           line-height: 200.02%;
           color: ${GrayColor};
         }
+        @media screen and (max-width: 768px) {
+          h1 {
+            font-size: 35px;
+            margin: 20px 0;
+          }
+        }
         &-desc {
           h1 {
             font-family: 'Poppins';
@@ -212,7 +249,6 @@ export const MeetTeamContainer = styled.div`
   padding: 60px 0;
 
   .meetTeam-content {
-
     &-heading {
       text-align: center;
       margin-bottom: 60px;
@@ -233,9 +269,13 @@ export const MeetTeamContainer = styled.div`
         color: ${SecondaryColor};
         margin-bottom: 25px;
       }
+      @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 35px;
+        }
+      }
     }
     &-detail {
-
       &-desc {
         display: flex;
         flex-direction: column;
@@ -249,6 +289,11 @@ export const MeetTeamContainer = styled.div`
           font-size: 24px;
           line-height: 121.52%;
           color: ${SecondaryColor};
+        }
+        @media screen and (max-width: 768px) {
+          p {
+            font-size: 18px;
+          }
         }
 
         &-one {
@@ -269,6 +314,11 @@ export const MeetTeamContainer = styled.div`
             line-height: 136.52%;
             color: ${PrimaryColor};
           }
+          @media screen and (max-width: 768px) {
+            h1 {
+              font-size: 23px;
+            }
+          }
         }
         &-two {
           p {
@@ -287,6 +337,11 @@ export const MeetTeamContainer = styled.div`
             font-size: 36px;
             line-height: 136.52%;
             color: #ff7a00;
+          }
+          @media screen and (max-width: 768px) {
+            h1 {
+              font-size: 23px;
+            }
           }
         }
         &-three {
@@ -307,6 +362,11 @@ export const MeetTeamContainer = styled.div`
             line-height: 136.52%;
             color: #2f994c;
           }
+          @media screen and (max-width: 768px) {
+            h1 {
+              font-size: 23px;
+            }
+          }
         }
       }
 
@@ -315,6 +375,11 @@ export const MeetTeamContainer = styled.div`
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+
+        @media screen and (max-width : 768px) {
+          max-width: 500px;
+          margin: 0 auto;
         }
       }
     }

@@ -60,7 +60,8 @@ export const WhoWeAreContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 30px;
+    column-gap: 30px;
+    row-gap: 60px;
 
     @media screen and (max-width: 740px) {
       grid-template-columns: 1fr;
@@ -96,6 +97,11 @@ export const WhoWeAreContainer = styled.div`
         height: 100%;
         object-fit: contain;
       }
+
+      @media screen and (max-width: 745px) {
+        max-width: 420px;
+        margin: 0 auto;
+      }
     }
     &-detail {
       display: flex;
@@ -126,6 +132,16 @@ export const WhoWeAreContainer = styled.div`
         font-weight: 700;
         font-size: 48px;
         line-height: 85.52%;
+      }
+
+      @media screen and (max-width: 745px) {
+        h1 {
+          font-size: 35px;
+          margin: 15px 0;
+        }
+        p {
+          margin-top: 10px;
+        }
       }
     }
   }
@@ -178,6 +194,16 @@ export const HowDoItContainer = styled.div`
         font-size: 16px;
         line-height: 74.02%;
       }
+
+      @media screen and (max-width: 960px) {
+        padding-left: 15%;
+        h1 {
+          font-size: 35px;
+        }
+        h6 {
+          font-size: 14px;
+        }
+      }
     }
     &-right {
       height: 100%;
@@ -198,7 +224,7 @@ export const HowDoItContainer = styled.div`
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
-      line-height: 84.02%;
+      line-height: 130.02%;
     }
     p {
       color: ${GrayColor};
@@ -207,6 +233,14 @@ export const HowDoItContainer = styled.div`
       font-weight: 400;
       font-size: 16px;
       line-height: 200.02%;
+    }
+    @media screen and (max-width: 740px) {
+      h2 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
     &-list {
       margin-top: 40px;
@@ -229,6 +263,9 @@ export const HowDoItContainer = styled.div`
           }
         }
       }
+      @media screen and (max-width: 740px) {
+        margin-top: 10px;
+      }
     }
   }
 `;
@@ -248,6 +285,7 @@ export const OurAdvantagesContainer = styled.div`
       justify-content: space-evenly;
       height: 100%;
       row-gap: 10px;
+
       p {
         font-family: 'Poppins';
         font-style: normal;
@@ -302,6 +340,12 @@ export const OurAdvantagesContainer = styled.div`
         height: 100%;
         object-fit: cover;
       }
+      @media screen and (max-width: 740px) {
+        margin-top: 30px;
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
   }
 `;
@@ -339,6 +383,12 @@ export const TeamContainer = styled.div`
       margin: 20px 0;
     }
   }
+
+  @media screen and (max-width: 620px) {
+    h1 {
+      font-size: 35px !important;
+    }
+  }
 `;
 
 export const ContactUsContainer = styled.div`
@@ -367,6 +417,12 @@ export const ContactUsContainer = styled.div`
         font-size: 48px;
         line-height: 85.52%;
         color: ${SecondaryColor};
+      }
+      @media screen and (max-width: 620px) {
+        h1 {
+          font-size: 35px;
+          margin-bottom: 0;
+        }
       }
     }
     &-form {

@@ -37,25 +37,23 @@ export { default as setAPartHeader } from './set-a-part-accordian-background.png
 export { default as uniqueModelImg } from './our-unique-model.png';
 export { default as ourApproach } from './our-approach.png';
 export { default as meetTheTeam } from './meet-team.png';
-export {default as uniqueModelListIcon} from './unique-model-list-icon.svg'
-export {default as ourApproachHeader} from './our-approach-header.png'
+export { default as uniqueModelListIcon } from './unique-model-list-icon.svg';
+export { default as ourApproachHeader } from './our-approach-header.png';
 
+// out team
 
-// out team 
-
-export {default as ourTeamHeader } from './our-team-accordian-background.png';
-export {default as teamBackground } from './ourTeam-background.png';
-
+export { default as ourTeamHeader } from './our-team-accordian-background.png';
+export { default as teamBackground } from './ourTeam-background.png';
+export { default as grayListIcon } from './gray-list-icon.svg';
 
 // contact us
 
-export {default as contactUsLogo} from './contactUs-logo.svg'
-export {default as bluePhone} from './phone-blue-icon.svg';
-export {default as blueLocation} from './location-blue-icon.svg';
-export {default as blueMail} from './mail-blue-icon.svg';
-
+export { default as contactUsLogo } from './contactUs-logo.svg';
+export { default as bluePhone } from './phone-blue-icon.svg';
+export { default as blueLocation } from './location-blue-icon.svg';
+export { default as blueMail } from './mail-blue-icon.svg';
 
 // navbar
 
-export {default as bars} from './bars.png';
-export {default as times} from './times.png';
+export { default as bars } from './bars.png';
+export { default as times } from './times.png';

@@ -25,6 +25,11 @@ export const ContactUsContainer = styled.div`
       color: ${SecondaryColor};
       margin: 15px 0;
     }
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 35px;
+      }
+    }
   }
 
   .contactus-form {

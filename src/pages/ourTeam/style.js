@@ -21,6 +21,12 @@ export const OurTeamContainer = styled.div`
       line-height: 85.52%;
       color: ${WhiteColor};
     }
+
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 43px;
+      }
+    }
   }
 
   .our-team-content {
@@ -55,9 +61,26 @@ export const OurTeamContainer = styled.div`
       margin-bottom: 30px;
       color: ${SecondaryColor};
     }
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 35px;
+      }
+    }
   }
 
   .our-teamMember-detail {
+    .back-link {
+      margin: 0;
+      font-size: 19px;
+      color: ${PrimaryColor};
+      margin-bottom: 10px;
+      a {
+        display: flex;
+        gap: 6px;
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
     padding: 50px 0;
     &-img {
       width: 100%;
@@ -94,6 +117,7 @@ export const OurTeamContainer = styled.div`
       flex-direction: column;
       justify-content: space-evenly;
       height: 100%;
+      margin-bottom: 50px;
 
       h6 {
         font-family: 'Poppins';
@@ -129,6 +153,91 @@ export const OurTeamContainer = styled.div`
         line-height: 200.02%;
         color: ${GrayColor};
         margin-bottom: 0;
+      }
+
+      &-significant {
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 84.02%;
+          color: ${PrimaryColor};
+          margin-bottom: 14px;
+        }
+        p {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 200.02%;
+          color: ${GrayColor};
+          margin-bottom: 28px;
+        }
+      }
+      &-legalwork {
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 84.02%;
+          color: ${PrimaryColor};
+          margin-bottom: 14px;
+        }
+        p {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 145.52%;
+          color: ${GrayColor};
+          margin-bottom: 28px;
+        }
+        h6 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 200.02%;
+          color: ${GrayColor};
+        }
+      }
+      &-highlights {
+        h1 {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 84.02%;
+          color: ${PrimaryColor};
+        }
+
+        &-list {
+          &-item {
+            display: flex;
+            align-items: center;
+            column-gap: 12px;
+            margin-bottom: 14px;
+          }
+        }
+      }
+      &-content-list {
+        &-item {
+          display: flex;
+          align-items: center;
+          column-gap: 12px;
+          margin-bottom: 14px;
+          p {
+            margin: 0;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200.02%;
+            color: ${GrayColor};
+          }
+        }
       }
     }
   }
