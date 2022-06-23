@@ -1,10 +1,16 @@
 import React from 'react';
 import { advantageListIcon, ourAdvantageImg } from 'assets';
+// import {useNavigate} from 'react-router-dom';
 import { PrimaryColor, WhiteColor, SaparateLine } from 'components/GlobalStyle';
 import CustomButton from '../../components/CustomButton';
 import { OurAdvantagesContainer } from './style';
 
 function OurAdvantages() {
+  // const navigate = useNavigate()
+
+  // const navigateHandler = () => {
+  //   navigate('/project-structure')
+  // }
   return (
     <OurAdvantagesContainer>
       <div className="our-advantages-content">
@@ -41,6 +47,7 @@ function OurAdvantages() {
                     color={WhiteColor}
                     text="Strategic Advantages"
                     padding="10px 25px"
+                    // clicked={navigateHandler}
                   />
                 </div>
               </div>

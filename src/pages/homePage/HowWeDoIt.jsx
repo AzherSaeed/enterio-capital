@@ -1,10 +1,16 @@
 import React from 'react';
 import { howDoItRight, listIcon } from 'assets';
+import {useNavigate} from 'react-router-dom';
 import { HowDoItContainer } from './style';
 import { PrimaryColor, SaparateLine, WhiteColor } from '../../components/GlobalStyle';
 import CustomButton from '../../components/CustomButton';
 
 function HowWeDoIt() {
+  const navigate = useNavigate()
+
+  const navigateHandler = () => {
+    navigate('/project-structure')
+  }
   return (
     <HowDoItContainer>
       <div className="howDoIt-content">
@@ -20,6 +26,7 @@ function HowWeDoIt() {
             color={PrimaryColor}
             text="Structure"
             padding="10px 25px"
+            clicked={navigateHandler}
           />
         </div>
         <div className="howDoIt-content-right">

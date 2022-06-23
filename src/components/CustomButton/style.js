@@ -11,6 +11,10 @@ export const CustomButtonContainer = styled.div`
     border-radius: 4px;
     font-size: 16px;
     border: none;
+
+    @media screen and (max-width : 420px) {
+      padding: 6px;
+    }
   }
 `;
 

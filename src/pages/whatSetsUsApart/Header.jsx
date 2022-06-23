@@ -4,7 +4,7 @@ import { HeaderContainer } from './style';
 function Header() {
   return (
     <HeaderContainer>
-      <h1>What Sets us a Part</h1>
+      <h1>What Sets Us Apart</h1>
     </HeaderContainer>
   );
 }

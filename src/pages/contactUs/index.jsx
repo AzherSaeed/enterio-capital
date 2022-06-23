@@ -1,8 +1,15 @@
-import { FlexDirection, InputColor, PrimaryColor, SaparateLine, WhiteColor } from 'components/GlobalStyle';
+/* eslint-disable jsx-a11y/iframe-has-title */
+import {
+  FlexDirection,
+  InputColor,
+  PrimaryColor,
+  SaparateLine,
+  WhiteColor,
+} from 'components/GlobalStyle';
 import React from 'react';
-import { contactUsLogo, bluePhone , blueLocation , blueMail } from 'assets';
+import { contactUsLogo, bluePhone, blueLocation, blueMail } from 'assets';
 import CustomInput from '../../components/CustomInput';
-import CustomButton from '../../components/CustomButton'
+import CustomButton from '../../components/CustomButton';
 import CustomTextArea from '../../components/CustomTextArea';
 import { ContactUsContainer } from './style';
 
@@ -15,13 +22,10 @@ const index = () => (
     </div>
     <div className="contactus-map">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.808802525471!2d-1.2565554842972038!3d51.75481970040363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2s!4v1655908100611!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195657.27345284304!2d-83.13091377058056!3d39.98286713490184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883889c1b990de71%3A0xe43266f8cfb1b533!2sColumbus%2C%20OH%2C%20USA!5e0!3m2!1sen!2s!4v1655992896168!5m2!1sen!2s"
         width="100%"
         height="441"
-        // allowfullscreen=""
-        title="ad"
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
       />
     </div>
     <div className="container">

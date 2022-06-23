@@ -193,6 +193,8 @@ export const HowDoItContainer = styled.div`
         font-weight: 400;
         font-size: 16px;
         line-height: 74.02%;
+
+
       }
 
       @media screen and (max-width: 960px) {
@@ -202,6 +204,7 @@ export const HowDoItContainer = styled.div`
         }
         h6 {
           font-size: 14px;
+          margin-top: 10px;
         }
       }
     }

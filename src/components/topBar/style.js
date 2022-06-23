@@ -8,6 +8,7 @@ export const TopBarContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 30px;
 
     &-phone {

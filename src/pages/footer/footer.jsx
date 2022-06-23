@@ -1,5 +1,6 @@
 import React from 'react';
 import { footerLogo, phoneIcon, mailIcon, locationIcon } from 'assets';
+import { Link } from 'react-router-dom';
 import FooterContainer from './style';
 
 const footer = () => (
@@ -7,7 +8,9 @@ const footer = () => (
     <div className="container footer-content">
       <div className="footer-content-desc">
         <div className="footer-content-desc-logo">
-          <img src={footerLogo} alt="footerLogo" />
+          <Link to='/' >
+            <img src={footerLogo} alt="footerLogo" />
+          </Link>
         </div>
         <div className="footer-content-desc-detail">
           <p>
@@ -21,11 +24,11 @@ const footer = () => (
       <div className="footer-content-quickLink">
         <h1>Quick Links</h1>
         <div className="footer-content-quickLink-list">
-          <p>Home</p>
-          <p>Project Structure</p>
-          <p>What Sets us a Part</p>
-          <p>Our Team</p>
-          <p>Contact</p>
+          <Link to="/">Home</Link>
+          <Link to="/project-structure">Project Structure</Link>
+          <Link to="/what-sets-us-apart">What Sets us a Part</Link>
+          <Link to="/team">Our Team</Link>
+          <Link to="/contactus">Contact</Link>
         </div>
       </div>
       <div className="footer-content-useFulLink">
