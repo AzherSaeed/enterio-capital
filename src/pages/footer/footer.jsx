@@ -43,11 +43,11 @@ const footer = () => (
         <div className="footer-content-contact-list">
           <p>
             <img src={phoneIcon} alt="phoneIcon" />
-            <span>(614) 207-1369</span>
+            <span> <a href='tel: 614 207-1369' target='_blank' rel="noreferrer" >(614) 207-1369</a></span>
           </p>
           <p>
             <img src={mailIcon} alt="mailIcon" />
-            <span>ToddHolstlaw@Entira CapitalPartners.com</span>
+            <span> <a target='_blank' rel="noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ToddHolstlaw@EntiraCapitalPartners.com' >ToddHolstlaw@EntiraCapitalPartners.com</a></span>
           </p>
           <p>
             <img src={locationIcon} alt="locationIcon" />

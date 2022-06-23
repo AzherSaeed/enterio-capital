@@ -29,7 +29,7 @@ function MeetTheTeam() {
                                 </div>
                                 <div className='meetTeam-content-detail-desc-three' >
                                     <p>We Have</p>
-                                    <h1>EXPERIENCE</h1>
+                                    <h1>SUCCESS</h1>
                                 </div>
                             </div>
                         </div>

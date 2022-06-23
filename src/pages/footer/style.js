@@ -90,6 +90,7 @@ const FooterContainer = styled.div`
         font-size: 16px;
         line-height: 85.52%;
         margin-bottom: 24px;
+        cursor: pointer;
       }
       @media screen and (max-width: 620px) {
         h1 {
