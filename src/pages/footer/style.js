@@ -105,20 +105,27 @@ const FooterContainer = styled.div`
     }
     &-contact {
       max-width: 208px;
+
+      &-list{
+        p{
+          margin: 11px 0 ;
+        }
+      }
       h1 {
         font-weight: 600;
         font-size: 24px;
         line-height: 91.02%;
         margin-bottom: 40px;
       }
-      p {
+      a {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 85.52%;
         margin-bottom: 24px;
-
+        color: ${WhiteColor};
+        text-decoration: none;
       
       }
 

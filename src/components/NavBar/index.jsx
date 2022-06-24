@@ -25,7 +25,7 @@ const index = () => {
                 Project Structure
               </NavLink>
               <NavLink activeClassName="active" to="/what-sets-us-apart">
-                What sets us apart
+                What Sets Us Apart
               </NavLink>
               <NavLink activeClassName="active" to="/team">
                 Our Team

@@ -31,13 +31,13 @@ const footer = () => (
           <Link to="/contactus">Contact</Link>
         </div>
       </div>
-      <div className="footer-content-useFulLink">
+      {/* <div className="footer-content-useFulLink">
         <h1>Useful Links</h1>
         <div className="footer-content-useFulLink-list">
           <p>Privacy Policy</p>
           <p>Terms & Condition</p>
         </div>
-      </div>
+      </div> */}
       <div className="footer-content-contact">
         <h1>Contact</h1>
         <div className="footer-content-contact-list">
@@ -47,7 +47,7 @@ const footer = () => (
           </p>
           <p>
             <img src={mailIcon} alt="mailIcon" />
-            <span> <a target='_blank' rel="noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ToddHolstlaw@EntiraCapitalPartners.com' >ToddHolstlaw@EntiraCapitalPartners.com</a></span>
+            <span> <a target='_blank' rel="noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ToddHolstlaw@EntiraCapital.com' >ToddHolstlaw@EntiraCapital.com</a></span>
           </p>
           <p>
             <img src={locationIcon} alt="locationIcon" />

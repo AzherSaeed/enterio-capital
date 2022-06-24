@@ -397,6 +397,10 @@ export const TeamContainer = styled.div`
 export const ContactUsContainer = styled.div`
   background: #fbfbfb;
 
+
+  .container{
+    max-width: 1290px !important;
+  }
   .contact-us-content {
     padding: 50px 0;
     display: flex;

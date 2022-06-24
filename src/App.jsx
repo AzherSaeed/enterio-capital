@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import CompanyPages from './routes/companyPages';
-import { TopBar, NavBar } from './components';
+import {NavBar } from './components';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <TopBar />
+      {/* <TopBar /> */}
       <NavBar />
       {/* <Link to="/">Home</Link>
       <Link to="/team">Team</Link>

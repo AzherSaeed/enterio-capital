@@ -41,7 +41,7 @@ const index = () => (
             </div>
             <div className="contactus-form-left-items-item">
               <img src={blueMail} alt="bluePhone" />
-              <p>ToddHolstlaw@CampusCapitalPartners.com</p>
+              <p>ToddHolstlaw@EntiraCapital.com</p>
             </div>
             <div className="contactus-form-left-items-item">
               <img src={blueLocation} alt="bluePhone" />
