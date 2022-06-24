@@ -147,11 +147,7 @@ export const MonitizationContainer = styled.div`
 
         &-detail {
           text-align: left;
-          @media screen and (max-width: 780px) {
-            h1 {
-              font-size: 19px !important;
-            }
-          }
+         
 
           h1 {
             color: ${SecondaryColor};
@@ -169,6 +165,12 @@ export const MonitizationContainer = styled.div`
             font-weight: 400;
             font-size: 16px;
             line-height: 200.02%;
+          }
+          @media screen and (max-width: 780px) {
+            h1 {
+              font-size: 19px !important;
+              line-height: 133.02% !important;
+            }
           }
         }
       }

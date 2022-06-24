@@ -27,6 +27,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const UniqueModelContainer = styled.div`
+overflow: hidden;
   .unique-model-content {
     padding: 100px 0 !important;
     &-heading {
@@ -63,6 +64,7 @@ export const UniqueModelContainer = styled.div`
         }
         h6 {
           font-size: 16px;
+          line-height: 133.2%;
         }
       }
     }
@@ -139,6 +141,7 @@ export const UniqueModelContainer = styled.div`
 `;
 
 export const OurApproachContainer = styled.div`
+overflow: hidden;
   .our-approach-content {
     &-header {
       background-image: url(${ourApproachHeader});
@@ -238,6 +241,13 @@ export const OurApproachContainer = styled.div`
             line-height: 200.02%;
             color: ${GrayColor};
           }
+
+          @media screen and (max-width: 768px) {
+          h1 {
+            line-height: 133.02%;
+            font-size: 18px;
+          }
+        }
         }
       }
     }
@@ -247,6 +257,7 @@ export const OurApproachContainer = styled.div`
 export const MeetTeamContainer = styled.div`
   background: rgba(0, 117, 255, 0.06);
   padding: 60px 0;
+  overflow: hidden;
 
   .meetTeam-content {
     &-heading {

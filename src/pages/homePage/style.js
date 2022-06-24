@@ -52,6 +52,7 @@ export const HeroSectionContainer = styled.div`
 `;
 
 export const WhoWeAreContainer = styled.div`
+overflow: hidden;
   .who-we-are-section {
     overflow: hidden;
   }
@@ -148,6 +149,7 @@ export const WhoWeAreContainer = styled.div`
 `;
 
 export const HowDoItContainer = styled.div`
+overflow: hidden;
   .howDoIt-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -205,6 +207,7 @@ export const HowDoItContainer = styled.div`
         h6 {
           font-size: 14px;
           margin-top: 10px;
+          line-height: 133.02%;
         }
       }
     }
@@ -274,6 +277,7 @@ export const HowDoItContainer = styled.div`
 `;
 
 export const OurAdvantagesContainer = styled.div`
+overflow: hidden;
   background-image: url(${ourAdvantageBg});
   width: 100%;
   height: 100%;
@@ -397,7 +401,7 @@ export const TeamContainer = styled.div`
 export const ContactUsContainer = styled.div`
   background: #fbfbfb;
 
-
+  overflow: hidden;
   .container{
     max-width: 1290px !important;
   }
