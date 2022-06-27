@@ -6,7 +6,6 @@ import HowWeDoIt from './HowWeDoIt';
 import OurAdvantages from './OurAdvantages';
 import Team from '../team/Team';
 import ContactUs from './ContactUs';
-import Footer from '../footer/footer';
 import { TeamContainer } from './style';
 
 function HomePage() {
@@ -24,9 +23,7 @@ function HomePage() {
         </div>
         <Team heading="asdf" para="asdf" />
       </TeamContainer>
-
       <ContactUs />
-      <Footer />
     </div>
   );
 }

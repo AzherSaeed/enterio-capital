@@ -3,7 +3,6 @@ import Header from './Header';
 import UniqueModel from './UniqueModel'
 import OurApproch from './OurApproch';
 import MeetTheTeam from './MeetTheTeam';
-import Footer from '../footer/footer';
 
 function WhatSetsUsApart() {
   return (
@@ -12,7 +11,6 @@ function WhatSetsUsApart() {
       <UniqueModel/>
       <OurApproch/>
       <MeetTheTeam/>
-      <Footer/>
     </div>
   );
 }

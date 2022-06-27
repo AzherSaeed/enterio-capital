@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import Monetization from './Monetization';
 import StructureFlow from './StructureFlow';
-import Footer from '../footer/footer';
 
 function ProjectStructure() {
   return (
@@ -10,7 +9,6 @@ function ProjectStructure() {
       <Header />
       <Monetization/>
       <StructureFlow/>
-      <Footer/>
     </div>
   );
 }

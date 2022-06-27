@@ -1,7 +1,6 @@
 import React from 'react';
 import { PrimaryColor, SaparateLine } from 'components/GlobalStyle';
 import Team from '../team/Team';
-import Footer from '../footer/footer';
 import { OurTeamContainer, OurTeamContant } from './style';
 
 const index = () => (
@@ -30,7 +29,6 @@ const index = () => (
         <h1>Expertise, combined with purpose yields success!</h1>
         <Team para='Expertise, combined with purpose yields success!' heading='' />
     </OurTeamContant>
-    <Footer />
   </OurTeamContainer>
 );
 

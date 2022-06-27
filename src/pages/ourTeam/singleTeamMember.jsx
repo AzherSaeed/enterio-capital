@@ -1,21 +1,24 @@
 /* eslint-disable eqeqeq */
 import React from 'react';
 import { grayListIcon } from 'assets';
-import { PrimaryColor, SaparateLine } from 'components/GlobalStyle';
-import { Link, useParams } from 'react-router-dom';
+import { PrimaryColor, SaparateLine  } from 'components/GlobalStyle';
+import { Link, useParams} from 'react-router-dom';
 import teamData from '../../teamData';
-import Footer from '../footer/footer';
 import { OurTeamContainer } from './style';
+
 
 const singleTeamMemver = () => {
   const { id } = useParams();
 
   const singleTeamMember = teamData.find((member) => member.id == id);
 
+
+
+
   return (
     <div>
       <OurTeamContainer>
-        <div className="our-team-header">
+        <div className="our-team-header" >
           <h1>Our Team</h1>
         </div>
         <div className="container">
@@ -230,7 +233,6 @@ const singleTeamMemver = () => {
           </div>
         </div>
       </OurTeamContainer>
-      <Footer />
     </div>
   );
 };
